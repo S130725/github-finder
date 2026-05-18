@@ -165,4 +165,4 @@ return new Date(dateString).toLocaleDateString("en-US", {
  }
 
  searchInput.value = "octocat";
- searchUser
+ searchUser()
