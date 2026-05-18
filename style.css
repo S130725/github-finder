@@ -171,7 +171,7 @@ transition: background-color 0.3s;
     margin-right: 5px;
 }
 
-#error-container {
+.error-container {
     background-color: rgba(239, 68, 68, 0.2);
     color: #ef4444;
     padding: 15px;
@@ -185,7 +185,7 @@ transition: background-color 0.3s;
 .aditional-info{
     margin-top: 25px;
     display: grid;
-    grid-template-columns: auto-fill,minmax(200px,1fr);
+    grid-template-columns:  repeat(auto-fill, minmax(200px,1fr));
     gap: 15px;
     border-top: 1px solid rgba(255,255,255,0.1);
     padding-top: 20px;
